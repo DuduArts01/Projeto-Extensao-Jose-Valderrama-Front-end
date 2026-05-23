@@ -4,9 +4,11 @@ const Home = () => {
     const navigate = useNavigate();
 
     return(
-        <>
-            hello
-        </>
+     
+        <div className="bg-blue">
+            <button onClick={() => navigate("/calculate")} > Calculate </button>
+        </div>
+        
     );
 }
 

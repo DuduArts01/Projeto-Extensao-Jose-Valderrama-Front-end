@@ -3,10 +3,15 @@ import { useNavigate } from "react-router-dom"; // enables navigation between pa
 const Calculate = () => {
     const navigate = useNavigate();
 
-    return(
-        <>
-        
-        </>
+    return(    
+        <section className="">
+            <div className="bg-green">Cálculo de Trastes</div>
+
+            <div>
+
+            </div>
+            
+        </section>
     );
 };
 
